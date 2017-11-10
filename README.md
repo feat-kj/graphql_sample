@@ -42,7 +42,7 @@ bundle exec rails server
 ```
 - アクセス
 ```
-http://localhost:3000/graphiql
+http://localhost:3000/graphiql/
 ```
 
 ## ...
