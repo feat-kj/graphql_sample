@@ -1,7 +1,6 @@
 # README
-会員制の地域イベント検索サービスです。
-会員登録を行い、検索を行ってください
-
+GraphQLの概念とサーバーサイド実装の検討をするための
+実験用
 
 ## Support version
 
@@ -9,9 +8,6 @@
 
 - ruby 2.3.0
 - rails 5.0.1
-- slim 3.1.2
-- sorcery 0.10.2
-- bootstrap 3
 
 ## System dependencies
 
@@ -36,7 +32,7 @@ bundle exec rails db:migrate
 ## Database initialization
 
 ```
-bundle exec rails db:seed
+bundle exec rake db:seed
 ```
 ## How to run
 
