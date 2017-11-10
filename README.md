@@ -1,24 +1,52 @@
 # README
+会員制の地域イベント検索サービスです。
+会員登録を行い、検索を行ってください
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## Support version
 
-* Ruby version
+以下のバージョンで動作確認しています
 
-* System dependencies
+- ruby 2.3.0
+- rails 5.0.1
+- slim 3.1.2
+- sorcery 0.10.2
+- bootstrap 3
 
-* Configuration
+## System dependencies
 
-* Database creation
+- rbenvで管理する
+```
+$ rbenv --global 2.3.0
+```
+## Configuration
 
-* Database initialization
+```
+git clone git@github.com:feat-kj/rails_practice.git
+```  
+- project内に gem をinstall
+```
+$ bundle install --path vendor/bundle
+```  
+## Database creation
 
-* How to run the test suite
+```  
+bundle exec rails db:migrate
+```  
+## Database initialization
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+bundle exec rails db:seed
+```
+## How to run
 
-* Deployment instructions
+- サーバー起動
+```
+bundle exec rails server
+```
+- アクセス
+```
+http://localhost:3000/graphiql
+```
 
-* ...
+## ...
